@@ -1,0 +1,11 @@
+data/
+**/data/
+*.pt
+**/*.pt
+*.7z
+*.zip
+*.tar
+*.tar.gz
+__pycache__/
+*.py[cod]
+.git_bak_*/

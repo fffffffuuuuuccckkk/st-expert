@@ -1,0 +1,23 @@
+2026-06-16 14:29:29,876 - Namespace(device='cuda:0', dataset='PEMS08_NUEOOD', years='2016', target=None, model_name='gwnet_smoke_expert', seed=9090, bs=64, seq_len=12, horizon=12, input_dim=3, output_dim=1, mode='train', max_epochs=1, patience=1, adj_type='doubletransition', adp_adj=1, init_dim=32, skip_dim=256, end_dim=512, lrate=0.001, wdecay=0.0001, dropout=0.3, clip_grad_value=5)
+2026-06-16 14:29:29,877 - Adj path: /data/OuXiaoyu/mystg/baselines/ST-Expert/data/PEMS08_NUEOOD/adj.npy
+2026-06-16 14:29:30,030 - Data shape: (35712, 170, 3)
+2026-06-16 14:29:30,119 - Sample num: 10706, Batch num: 167
+2026-06-16 14:29:30,209 - Sample num: 3569, Batch num: 55
+2026-06-16 14:29:30,298 - Sample num: 3569, Batch num: 55
+2026-06-16 14:29:30,662 - The number of parameters: 345968
+2026-06-16 14:29:30,662 - Start training!
+2026-06-16 14:29:47,614 - Epoch: 001, Train Loss: 30.6985, Train RMSE: 43.1707, Train MAPE: 0.3711, Valid Loss: 33.3475, Valid RMSE: 46.8107, Valid MAPE: 0.4747, Train Time: 15.4681s/epoch, Valid Time: 1.4832s, LR: 1.0000e-03
+2026-06-16 14:29:47,618 - Val loss decrease from inf to 33.3475
+2026-06-16 14:29:49,000 - Horizon 1, Test MAE: 25.0601, Test RMSE: 34.0959, Test MAPE: 0.3731
+2026-06-16 14:29:49,003 - Horizon 2, Test MAE: 27.2292, Test RMSE: 37.3242, Test MAPE: 0.4047
+2026-06-16 14:29:49,006 - Horizon 3, Test MAE: 28.2422, Test RMSE: 39.1869, Test MAPE: 0.3922
+2026-06-16 14:29:49,009 - Horizon 4, Test MAE: 29.0971, Test RMSE: 39.8934, Test MAPE: 0.4201
+2026-06-16 14:29:49,011 - Horizon 5, Test MAE: 30.7467, Test RMSE: 42.1831, Test MAPE: 0.4451
+2026-06-16 14:29:49,014 - Horizon 6, Test MAE: 33.0846, Test RMSE: 46.1543, Test MAPE: 0.4474
+2026-06-16 14:29:49,017 - Horizon 7, Test MAE: 35.2415, Test RMSE: 48.6929, Test MAPE: 0.4983
+2026-06-16 14:29:49,019 - Horizon 8, Test MAE: 34.2848, Test RMSE: 47.9487, Test MAPE: 0.4710
+2026-06-16 14:29:49,022 - Horizon 9, Test MAE: 36.0554, Test RMSE: 49.9916, Test MAPE: 0.5003
+2026-06-16 14:29:49,025 - Horizon 10, Test MAE: 36.6119, Test RMSE: 50.8062, Test MAPE: 0.5167
+2026-06-16 14:29:49,027 - Horizon 11, Test MAE: 36.6999, Test RMSE: 50.8221, Test MAPE: 0.5262
+2026-06-16 14:29:49,030 - Horizon 12, Test MAE: 38.2792, Test RMSE: 53.2120, Test MAPE: 0.5223
+2026-06-16 14:29:49,030 - Average Test MAE: 32.5527, Test RMSE: 45.0259, Test MAPE: 0.4598
